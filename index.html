@@ -54,62 +54,78 @@
         </ul>
       </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Java</li>
-          <li>Python</li>
-          <li>C#</li>
-        </ul>
-      </section>
+      <div class="row gx-4 mt-4">
+        <section id="skills" class="col-md-4">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C#</li>
+          </ul>
+        </section>
 
-      <section id="projects">
-        <h2>Projects or Experience</h2>
-        <ul>
-          <li>
-            SAD Project - Created a Hotel Management System using HTML, CSS, and
-            JavaScript
-          </li>
-        </ul>
-      </section>
+        <section id="projects" class="col-md-4">
+          <h2>Projects or Experience</h2>
+          <ul>
+            <li>
+              SAD Project - Created a Hotel Management System using HTML, CSS,
+              and JavaScript
+            </li>
+          </ul>
+        </section>
 
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" />
-          </div>
-          <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send</button>
-        </form>
-      </section>
+        <section id="hobbies" class="col-md-4">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Playing Video Games</li>
+            <li>Listening to Music</li>
+            <li>Reading Novels</li>
+          </ul>
+        </section>
+      </div>
 
-      <section id="comments">
-        <h2>Comment Section</h2>
-        <form>
-          <div class="mb-3">
-            <label for="commentName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="commentName" />
-          </div>
-          <div class="mb-3">
-            <label for="commentText" class="form-label">Comment</label>
-            <textarea class="form-control" id="commentText" rows="2"></textarea>
-          </div>
-          <button type="submit" class="btn btn-secondary">Submit</button>
-        </form>
-        <div id="commentList"></div>
-      </section>
+      <div class="row gx-4 mt-4">
+        <section id="contact" class="col-md-6">
+          <h2>Contact Me</h2>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </section>
+
+        <section id="comments" class="col-md-6">
+          <h2>Comment Section</h2>
+          <form>
+            <div class="mb-3">
+              <label for="commentName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="commentName" />
+            </div>
+            <div class="mb-3">
+              <label for="commentText" class="form-label">Comment</label>
+              <textarea
+                class="form-control"
+                id="commentText"
+                rows="2"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+          </form>
+          <div id="commentList"></div>
+        </section>
+      </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="scripts.js"></script>
   </body>
 </html>
-
